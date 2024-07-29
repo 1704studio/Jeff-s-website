@@ -1,0 +1,152 @@
+<html>
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta name="Jeff 的个人网站" content="这是我尝试给自己制作的个人网站" />
+      <link rel="icon" href="image/Ellipse 2.png" />
+      <title>Jeff 的个人网站</title>
+      <style>
+        body {
+          margin: 0px;
+          background: linear-gradient(180deg, #fffef0 0%, #fffee6 100%);
+        }
+
+        .Frame1 {
+          width: 100%; /* 容器宽度设置为100% */
+          height: 612px; /* 容器高度固定，根据需要设置高度 */
+          background-image: url("image/background.png"); /* 背景图URL */
+          background-size: auto 100%; /* 宽度自动，高度为100% */
+          background-position: center 0px; /* 背景图居中显示 */
+          background-repeat: no-repeat; /* 背景图不重复 */
+          display: flex;
+          justify-content: center;
+        }
+
+        .jieshao {
+          display: flex;
+          width: 800px;
+          flex-direction: column;
+          align-items: center;
+          gap: 23px;
+          padding-top: 207px;
+        }
+
+        .touxiang {
+          width: 148px;
+          height: 148px;
+          border-radius: 50%;
+        }
+
+        .Frame2 {
+          display: flex;
+          height: 224px;
+          /* padding: 94px 199px 94px 198px; */
+          justify-content: center;
+        }
+        #cardbox {
+          width: 1043px;
+          height: 224px;
+          display: flex;
+          gap: 32px;
+        }
+        .s {
+          height: 100%;
+          flex: 1 0 0;
+          display: flex;
+        }
+
+        .card {
+          border-radius: 4px;
+          background: #fffadf;
+          box-shadow: 63px 111px 36px 0px rgba(222, 215, 175, 0),
+            40px 71px 33px 0px rgba(222, 215, 175, 0.01),
+            23px 40px 28px 0px rgba(222, 215, 175, 0.05),
+            10px 18px 20px 0px rgba(222, 215, 175, 0.09),
+            3px 4px 11px 0px rgba(222, 215, 175, 0.1);
+        }
+        #Frame3 {
+          display: flex;
+          width: 100%;
+          padding: 120px 0px;
+          flex-direction: column;
+          align-items: center;
+          gap: 10px;
+        }
+      </style>
+    </head>
+    <body class="flex">
+      <div class="Frame1">
+        <!-- 顶部 -->
+
+        <div class="jieshao">
+          <img class="touxiang" src="image/Ellipse 2.png" alt="" />
+          <p
+            style="
+              color: #414141;
+              text-align: center;
+              font-size: 24px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+            "
+          >
+            你好，我的 Jeff<br />
+            这是我尝试给自己做的个人网站，谢谢你的来访！<br />
+          </p>
+        </div>
+      </div>
+      <div class="Frame2">
+        <!-- 主体 -->
+        <div id="cardbox">
+          <!-- 卡片盒子 -->
+          <div class="s card"></div>
+          <div class="s card"></div>
+          <div class="s card"></div>
+        </div>
+      </div>
+      <div id="Frame3">
+        <div
+          style="
+            display: flex;
+            flex-direction: row;
+            width: 880px;
+            height: 622px;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 80px;
+          "
+        >
+          <div
+            class="card"
+            style="width: 400px; height: 622px; flex-shrink: 0"
+          ></div>
+          <div
+            style="
+              display: flex;
+              width: 400px;
+              height: 622px;
+              flex-shrink: 0;
+              justify-content: center;
+              align-items: center;
+            "
+          >
+            <p
+              style="
+                color: #414141;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 400px;
+                line-height: normal;
+              "
+            >
+              WeChat:Jeff_WeChat_new<br />
+              Email:zhangjf1995@126.com<br />
+            </p>
+          </div>
+        </div>
+      </div>
+    </body>
+  </html>
+</html>
